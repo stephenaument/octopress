@@ -1,15 +1,16 @@
 ---
 layout: post
 title: "Null Object Part 2"
-date: 2014-03-11 14:57:10 -0600
+date: 2014-03-06 19:21:15 -0600
+date: 2014-03-11 00:00:00 -0600
 comments: true
 categories: 
---
+---
 
 In a [previous post](/blog/2014/03/05/the-null-object-pattern-and-method-missing-in-ruby/) I
 described using `method_missing` in a Null Object to stand in for another
 object and respond smartly to the original object's interface. At the end of
-that post I suggested that you could go further than we did in creating a more
+that post I suggested that you could go farther than we did in creating a more
 abstract object. Well, we got that chance.
 
 In this post I will show you how we created a `NilObject` that can both stand
@@ -19,7 +20,7 @@ faking, so we'll have to take that into account. Finally, we decided to
 implement a smart `respond_to?` method to round out the functionality of our
 `NilObject`.
 
-Here's the form that our NilDuck took at the end of the previous post:
+Here's the form that our `NilDuck` took at the end of the previous post:
 
 {% gist 9422568 nil_duck_previous.rb %}
 
@@ -103,7 +104,7 @@ instantiated.
 As an added bonus we decided to implement `respond_to?` so it behaves exactly
 like the subject class would behave.
 
-{% gist 9422568 nil_object_3.rb %}
+{% gist 9422568 nil_object_final.rb %}
 
 So there you have it. We now have a `NilObject` that can stand in for any other
 object like so: `NilObject.new(MyOtherClass)` and it will respond to exactly
