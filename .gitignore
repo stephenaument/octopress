@@ -1,4 +1,5 @@
 .bundle
+.themes/greyshade
 .DS_Store
 .sass-cache
 .gist-cache
