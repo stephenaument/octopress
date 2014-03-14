@@ -3,7 +3,9 @@ layout: post
 title: "Ruby Hash#fetch and Javascript"
 date: 2014-03-06 19:21:15 -0600
 comments: true
-categories: 
+categories:
+  - Intermediate Ruby
+  - Javascript
 ---
 
 In a [previous

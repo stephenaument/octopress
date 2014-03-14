@@ -4,6 +4,8 @@ title: "The Null Object Pattern and method_missing in Ruby"
 date: 2014-03-05 23:01:09 -0600
 comments: true
 categories:
+  - Design Patterns
+  - Metaprogramming
 ---
 
 I encountered an interesting problem this week that allowed me to dig into the

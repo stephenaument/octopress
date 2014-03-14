@@ -4,7 +4,8 @@ title: "Null Object Part 2"
 date: 2014-03-06 19:21:15 -0600
 date: 2014-03-11 00:00:00 -0600
 comments: true
-categories: 
+categories:
+  - Design Patterns
 ---
 
 In a [previous post](/blog/2014/03/05/the-null-object-pattern-and-method-missing-in-ruby/) I
